@@ -26,5 +26,18 @@ namespace WebApplication8.Controllers
 
             return View();
         }
+
+        public ActionResult WellNees()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+        public ActionResult Enqury()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
     }
 }
